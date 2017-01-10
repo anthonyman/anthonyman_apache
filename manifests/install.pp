@@ -1,6 +1,6 @@
 class apache::install inherits apache {
 
-  package { $::appache::package_name:
+  package { $::apache::package_name:
     ensure => present,
   }
 }
